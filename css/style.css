@@ -30,7 +30,7 @@ body {
   background-color: #f5eee3;
 }
 
-p, ul {
+p, ul{
   color: #818385;
 }
 
@@ -60,6 +60,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .black-bkg {
     background-color: black;
+}
+
+.gray {
+    color: #818385;
 }
 
 .coral {
@@ -296,6 +300,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .outside-link {
+  font-weight: 600;
   text-decoration: underline; 
   color: #818385;
 }
