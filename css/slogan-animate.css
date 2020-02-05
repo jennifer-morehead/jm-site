@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*       __                           
+        / /___ ___ __________________/
+   __  / / __ `__ \ ___jennifer_____/
+  / /_/ / / / / / /____morehead____/
+  \____/_/ /_/ /_/_____GR66_______/ 
+*/
+
+@keyframes d-rotate-a {
+  from {
+    transform-origin: 100% 50%;
+  }
+  to {
+    transform: rotate(-180deg);
+    transform-origin: 100% 50%;
+  }
+}
+
+@keyframes d-rotate-b {
+  0% {
+    transform-origin: 100% 50%;
+  }
+  50% {
+    transform: rotate(-210deg);
+    transform-origin: 100% 50%;
+  }
+  100% {
+    transform: rotate(-180deg);
+    transform-origin: 100% 50%;
+  }
+
+}
+
+.d-rotate-left {
+  display: inline-block;
+  height:60px;
+  width:30px;
+  border-radius: 90px 0 0 90px;
+  background-color: #f16a5f;
+  animation-name: d-rotate-a;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: d-rotate-a;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.d-right {
+  display: inline-block;
+  margin-left: -4.5px;
+  height:60px;
+  width:30px;
+  border-radius: 0px 90px 90px 0px;
+  background-color: #f16a5f;
+}
+
+@keyframes s-rotate-l {
+    0% {
+    background-color: #f16a5f;
+  }
+    50% {
+    background-color: #f16a5f;
+    transform: rotate(45deg);
+  }
+    100% {
+    background-color: #f16a5f;
+    transform: rotate(45deg) translate(10px,-25px);
+  }
+}
+.s-rotate-left{
+  display: inline-block;
+  height:60px;
+  width:30px;
+  border-radius: 90px 0 0 90px;
+  background-color: #f16a5f;
+  animation-name: s-rotate-l;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: s-rotate-l;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes s-rotate-r{
+    0% {
+    background-color: #f16a5f;
+  }
+    50% {
+    background-color: #f16a5f;
+    transform: rotate(45deg);
+  }
+    100% {
+    background-color: #f16a5f;
+    transform: rotate(45deg) translate(10px,10px) ;
+  }
+}
+
+.s-rotate-right{
+  display: inline-block;
+  margin-left: -4.5px;
+  height:60px;
+  width:30px;
+  border-radius: 0 90px 90px 0;
+  background-color: #f16a5f;
+  animation-name: s-rotate-r;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: s-rotate-r;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes leftalign-a {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -23px;
+  }
+}
+
+.left-align1 {
+  padding-left: 0px;
+  animation-name: leftalign-a;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: leftalign-a;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes leftalign-b {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -17px;
+  }
+}
+
+.left-align2 {
+  padding-left: 0px;
+  animation-name: leftalign-b;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: leftalign-b;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+/*///Everything larger than small mobile//*/
+@media (min-width: 480px) {
+
+@keyframes d-rotate-a {
+  from {
+    transform-origin: 100% 50%;
+  }
+  to {
+    transform: rotate(-180deg);
+    transform-origin: 100% 50%;
+  }
+}
+
+@keyframes d-rotate-b {
+  0% {
+    transform-origin: 100% 50%;
+  }
+  50% {
+    transform: rotate(-210deg);
+    transform-origin: 100% 50%;
+  }
+  100% {
+    transform: rotate(-180deg);
+    transform-origin: 100% 50%;
+  }
+
+}
+
+.d-rotate-left {
+  display: inline-block;
+  height:80px;
+  width:40px;
+  border-radius: 90px 0 0 90px;
+  background-color: #f16a5f;
+  animation-name: d-rotate-a;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: d-rotate-a;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.d-right {
+  display: inline-block;
+  margin-left: -4.5px;
+  height:80px;
+  width:40px;
+  border-radius: 0px 90px 90px 0px;
+  background-color: #f16a5f;
+}
+
+@keyframes s-rotate-l {
+    0% {
+    background-color: #f16a5f;
+  }
+    50% {
+    background-color: #f16a5f;
+    transform: rotate(45deg);
+  }
+    100% {
+    background-color: #f16a5f;
+    transform: rotate(45deg) translate(10px,-35px) ;
+  }
+}
+.s-rotate-left{
+  display: inline-block;
+  height:80px;
+  width:40px;
+  border-radius: 90px 0 0 90px;
+  background-color: #f16a5f;
+  animation-name: s-rotate-l;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: s-rotate-l;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes s-rotate-r{
+    0% {
+    background-color: #f16a5f;
+  }
+    50% {
+    background-color: #f16a5f;
+    transform: rotate(45deg);
+  }
+    100% {
+    background-color: #f16a5f;
+    transform: rotate(45deg) translate(10px,20px) ;
+  }
+}
+
+.s-rotate-right{
+  display: inline-block;
+  margin-left: -4.5px;
+  height:80px;
+  width:40px;
+  border-radius: 0 90px 90px 0;
+  background-color: #f16a5f;
+  animation-name: s-rotate-r;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: s-rotate-r;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes leftalign-a {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -35px;
+  }
+}
+
+.left-align1 {
+  padding-left: 0px;
+  animation-name: leftalign-a;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: leftalign-a;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes leftalign-b {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -17px;
+  }
+}
+
+.left-align2 {
+  padding-left: 0px;
+  animation-name: leftalign-b;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: leftalign-b;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+/*end media query*/
+}
