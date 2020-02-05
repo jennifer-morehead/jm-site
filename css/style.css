@@ -35,7 +35,7 @@ p, ul {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "Lora", sans-serif;
+  font-family: "Lora", serif;
   color: #353839;
   font-weight: 700;
 }
@@ -261,8 +261,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     left: 50%;
     opacity: 0;
     transform: translate(-50%, -50%);
-    color: whitesmoke;
     font-size: 21px;
+    color: whitesmoke;
+}
+
+.text-overlay h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+.text-overlay h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: whitesmoke;
 }
 
 /*//PROJECT SINGLE CUSTOM//*/
