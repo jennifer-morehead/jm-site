@@ -321,6 +321,25 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 /*//ABOUT CUSTOM//*/
+.hidden {
+  display: none;
+}
+
+.profile:hover .visible
+{
+  display: none;
+}
+
+.profile:hover .hidden {
+  display: block;
+}
+
+/* .hidden, .visible {
+  width:300px;
+  height:300px;
+} */
+
+
 .flip-image {
    -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
