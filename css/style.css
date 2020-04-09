@@ -34,10 +34,23 @@ p, ul{
   color: #818385;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, .h5, h6, .h6 {
   font-family: "Lora", serif;
   color: #353839;
   font-weight: 700;
+}
+
+h5 {
+  font-family: "Lora", serif;
+  color: #818385;
+  font-weight: 700;
+}
+
+mark {
+  /* color: white; */
+  color: #818385;
+  /* background-color: #f29f99; */
+  background-color: yellow;
 }
 
 /*///COLORS///*/
@@ -303,6 +316,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 600;
   text-decoration: underline; 
   color: #818385;
+}
+
+.outside-link-special {
+  font-weight: 600;
+  text-decoration: underline; 
+  color: #f16a5f;
 }
 
 @media (max-width: 992px){
