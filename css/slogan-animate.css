@@ -10,6 +10,7 @@
 
 @keyframes d-rotate-a {
   from {
+    /* set origin for transformation */
     transform-origin: 100% 50%;
   }
   to {
